@@ -1,0 +1,19 @@
+# Data files (not included in replication package)
+*.dta
+*.csv
+*.xlsx
+*.xls
+
+# Stata output
+*.log
+*.smcl
+*.gph
+
+# System files
+.DS_Store
+Thumbs.db
+~$*
+
+# Temporary files
+*.tmp
+*.bak
