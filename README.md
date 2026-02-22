@@ -51,8 +51,9 @@ code/
 ├── 07_policy_simulation.do         # Policy simulations (Table 6)
 ├── 08_heterogeneity.do             # Heterogeneity analysis (Table 5)
 ├── 09_loan_equation.do             # Loan probability model (Table 4)
-├── revision.do                     # Event study and additional analyses
-└── revision_main.do                # Main revision analyses
+├── 10_event_study.do               # Event study analysis (Figures 1-2)
+├── 11_reverse_causality.do         # Reverse causality tests
+└── 12_extended_analysis.do         # Extended analysis and robustness checks
 ```
 
 ## Instructions
@@ -74,7 +75,7 @@ To replicate all results, run the master do-file:
 do "code/00_master.do"
 ```
 
-Or run individual do-files in order (01 through 09).
+Or run individual do-files in order (01 through 12).
 
 ## Tables and Figures
 
@@ -86,8 +87,8 @@ Or run individual do-files in order (01 through 09).
 | Table 4 | 09_loan_equation.do | Loan probability model |
 | Table 5 | 08_heterogeneity.do | Heterogeneity of response |
 | Table 6 | 07_policy_simulation.do | Policy simulation |
-| Figure 1 | revision.do | Event study - formal to informal transition |
-| Figure 2 | revision.do | Event study - informal to formal transition |
+| Figure 1 | 10_event_study.do | Event study - formal to informal transition |
+| Figure 2 | 10_event_study.do | Event study - informal to formal transition |
 
 ## Key Variables
 
