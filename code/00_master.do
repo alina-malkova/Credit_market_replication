@@ -1,6 +1,7 @@
 /*******************************************************************************
 * MASTER DO-FILE: Labor Informality and Credit Market
-* Journal of Comparative Economics
+* Authors: Klara S. Peter and Alina Malkova
+* Journal of Comparative Economics, 2025
 *
 * Description: This master file runs all analysis do-files in sequence
 *              to replicate the results in the paper.
@@ -42,6 +43,7 @@ ssc install reghdfe
 ssc install ftools
 ssc install oaxaca
 ssc install estout
+ssc install nnmatch
 */
 
 * =============================================================================
@@ -144,15 +146,37 @@ display "=" * 70
 do "09_loan_equation.do"
 
 * =============================================================================
-* REVISION: Event Study and Additional Analyses (Figures 1-2)
+* STEP 10: Event Study Analysis (Figures 1-2)
 * =============================================================================
 
 display _newline(2)
 display "=" * 70
-display "REVISION: Event Study Analyses"
+display "STEP 10: Event Study Analysis"
 display "=" * 70
 
-do "revision.do"
+do "10_event_study.do"
+
+* =============================================================================
+* STEP 11: Reverse Causality Tests
+* =============================================================================
+
+display _newline(2)
+display "=" * 70
+display "STEP 11: Reverse Causality Tests"
+display "=" * 70
+
+do "11_reverse_causality.do"
+
+* =============================================================================
+* STEP 12: Extended Analysis and Robustness Checks
+* =============================================================================
+
+display _newline(2)
+display "=" * 70
+display "STEP 12: Extended Analysis and Robustness Checks"
+display "=" * 70
+
+do "12_extended_analysis.do"
 
 * =============================================================================
 * COMPLETION
