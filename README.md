@@ -3,7 +3,7 @@
 ## Paper Information
 
 **Title:** Labor Informality and Credit Market
-**Authors:** [Author names]
+**Authors:** Klara S. Peter and Alina Malkova
 **Journal:** Journal of Comparative Economics
 **Year:** 2025
 
