@@ -101,7 +101,10 @@ Or run individual do-files in order (01 through 12).
 ## Contact
 
 For questions about the replication package, please contact:
-[Contact information]
+
+**Alina Malkova**
+Florida Institute of Technology
+Email: amalkova@fit.edu
 
 ## License
 
